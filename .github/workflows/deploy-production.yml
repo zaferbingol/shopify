@@ -1,4 +1,12 @@
+
+name: Production deployment
+
 image: python:2
+
+on:
+  push:
+    branches:
+      - production
 
 stages:
   - staging
