@@ -1,0 +1,9 @@
+staging:
+  password: ${SHOPIFY_API_ACCESS_TOKEN}
+  theme_id: ${STAGING_THEME_ID}
+  store: ${SHOP_WEB_ADDRESS}
+
+production:
+  password: ${SHOPIFY_API_ACCESS_TOKEN}
+  theme_id: ${PRODUCTION_THEME_ID}
+  store: ${SHOP_WEB_ADDRESS}
